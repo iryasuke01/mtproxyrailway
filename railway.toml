@@ -1,0 +1,9 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+# Railway فقط healthcheck از نوع HTTP دارد؛ برای TCP چیزی تنظیم نمی‌کنیم.
+# بررسی سلامت داخل entrypoint.sh انجام می‌شود.
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
