@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env
+.env.*
+*.secret
+secret
+secret.txt
+config.toml
+data/
+*.zip
+*.log
+README.md
