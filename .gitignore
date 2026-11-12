@@ -1,0 +1,11 @@
+# هرگز Secret یا فایل‌های محلی را در گیت‌هاب نگذارید
+.env
+.env.*
+*.secret
+secret
+secret.txt
+config.toml
+data/
+*.zip
+*.log
+.DS_Store
